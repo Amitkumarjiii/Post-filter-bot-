@@ -121,9 +121,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://post-filter-bot-cntx.onrender.com/".format(FQDN)
+    URL = "https://post-filter-bot-jenx.onrender.com/".format(FQDN)
 else:
-    URL = "https://post-filter-bot-cntx.onrender.com/".format(FQDN)
+    URL = "https://post-filter-bot-jenx.onrender.com/".format(FQDN)
 
 
 
